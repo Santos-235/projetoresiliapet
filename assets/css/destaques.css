@@ -1,0 +1,18 @@
+.destaques {
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+}
+.destaques__1 {
+    background-image: url('../img/petshop3.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:70%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
